@@ -111,6 +111,24 @@ export default {
               authority: ['admin'],
             },
             {
+              name: '创建活动',
+              icon: 'smile',
+              path: '/createactive',
+              component: './active',
+            },
+            {
+              name: '创建抵金券',
+              icon: 'smile',
+              path: '/createcoupon',
+              component: './coupon',
+            },
+            {
+              name: '抵金券列表',
+              icon: 'smile',
+              path: '/couponlist',
+              component: './couponList',
+            },
+            {
               component: './404',
             },
           ],
